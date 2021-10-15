@@ -32,17 +32,17 @@ const router = new Router({
             path: '/producto',
             name: 'producto',
             component: Producto,
-            meta: {
-                requiresAuth: true
-            }
+            // meta: {
+            //     requiresAuth: true
+            // }
         },
         {
             path: '/home',
             name: 'home',
             component: home,
-            meta: {
-                requiresAuth: true
-            }
+            // meta: {
+            //     requiresAuth: true
+            // }
         },
         {
             path: '/login',
